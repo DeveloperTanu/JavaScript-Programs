@@ -15,3 +15,5 @@ async function getUser() {
     console.error("Request failed:", error.message);
   }
 }
+
+getUser();
